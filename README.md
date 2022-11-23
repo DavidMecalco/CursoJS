@@ -16,3 +16,15 @@ Si, y la razón es que le navegador lee linea por linea nuestro código el cuál
 ### Javascript es Basckwards Compatible
 
 Todas las funciones nuevas que salen de Javascript no dañarán el trabajo ya hecho, pero no se podrá utilizar en nuestro entorno de trabajo inmediatamente. Para solucionar esto está Babel que permite utilizar las nuevas características del lenguaje pero lo transforma a una versión que el navegador pueda entender.
+
+## Funciones
+### Funciones Declarativas:
+En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función.
+
+### Expresión de función:
+En la expresión de función, la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
+
+### Diferencias 
+A las funciones declarativas se les aplica hoisting, y a la expresión de función, no. Ya que el hoisting solo se aplica en las palabras reservadas var y function.
+
+Lo que quiere decir que con las funciones declarativas, podemos mandar llamar la función antes de que ésta sea declarada, y con la expresión de función, no, tendríamos que declararla primero, y después mandarla llamar.
