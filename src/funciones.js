@@ -21,3 +21,17 @@ var otraFuncion = function(a, b){
 
 //Llamar una función Expresiva
 otraFuncion(5, 2);
+
+//Imprimir en la consola del navegador
+function saludar(estudiante){
+    console.log(estudiante);
+}
+
+saludar("Diego");
+
+//Concatenar una varibale en cosola
+function concatenarSaludo(estudiante){
+    console.log('Hola ${estudiante}');
+}
+
+concatenarSaludo("David");
